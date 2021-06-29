@@ -54,7 +54,7 @@ class CountdownTimer {
 
 const newTimer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('August 26, 2020'),
+  targetDate: new Date('August 26, 2021'),
   onTick: updateTimer,
 });
 
